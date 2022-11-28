@@ -18,17 +18,9 @@ exports.createProduct = async (req, res) => {
 
 //Get All Product API
 
-const Apifeatures = require("../utils/apifeatures");
-
 exports.getAllProducts = async (req, res) => {
-  const resultPerPage = 1;
   try {
-    const apiFeatures = new Apifeatures(Product.find(), req.query);
-    apiFeatures.search();
-    apiFeatures.filter();
-    apiFeatures.pagination(resultPerPage);
-    const product = await apiFeatures.query;
-
+    const product = await Product.find();
     res.status(200).json({
       message: "Product Fetch Sucesfully",
       total_product_count: product.length,
