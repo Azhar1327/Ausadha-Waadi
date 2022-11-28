@@ -3,7 +3,7 @@
     transition: 0.3s;
     width: 19%;
     padding: 1em;
-    margin: 1em;
+    margin: 2em;
   }
   
   .card>img 
@@ -25,3 +25,10 @@
     flex-direction: row;
     justify-content:space-around;
   }
+
+  .Services-heading
+  {
+    margin-left: 1.5em;
+    color: rgb(12, 131, 251);
+  }
+
