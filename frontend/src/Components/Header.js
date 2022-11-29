@@ -20,7 +20,7 @@ function Header() {
       </div>
 
       <div class="topnav">
-        <a href="">
+        <a href="/">
           <b>Home</b>{" "}
         </a>
 
