@@ -3,12 +3,15 @@ import Available from "./Available.js";
 import "../CSS/Homepage.css";
 import { useDispatch } from "react-redux";
 import { getProducts } from "../actions/ProductAction.js";
+import {Link} from "react-router-dom";
 
 function Homepage() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getProducts());
   }, [dispatch]);
+
+  
 
   return (
     <>
@@ -30,15 +33,46 @@ function Homepage() {
                 ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
               </b>
             </h6>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+              
+            
+            <Link to="/Booking"><button>Book it</button></Link> 
+          </div>
+        </div>
+
+        <div className="card">
+          <img
+            src="https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0"
+            alt="Avatar"
+          />
+          <div className="container">
+            <h4>
+              <b>Medicines</b>
+            </h4>
+
             <h6>
-              <b>Ratings </b>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
             </h6>
-            <button>Book it</button>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+
+            <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
 
@@ -51,7 +85,22 @@ function Homepage() {
             <h4>
               <b>Medicines</b>
             </h4>
-            <button>Book it</button>
+
+            <h6>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
+            </h6>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            <Link to="/Booking"><button>Book it</button></Link>
           </div>
         </div>
 
@@ -64,20 +113,22 @@ function Homepage() {
             <h4>
               <b>Medicines</b>
             </h4>
-            <button>Book it</button>
-          </div>
-        </div>
 
-        <div className="card">
-          <img
-            src="https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0"
-            alt="Avatar"
-          />
-          <div className="container">
+            <h6>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
+            </h6>
+
             <h4>
-              <b>Medicines</b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
             </h4>
-            <button>Book it</button>
+            <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
       </div>
@@ -92,7 +143,22 @@ function Homepage() {
             <h4>
               <b>Medicines</b>
             </h4>
-            <button>Book it</button>
+
+            <h6>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
+            </h6>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
 
@@ -105,7 +171,22 @@ function Homepage() {
             <h4>
               <b>Medicines</b>
             </h4>
-            <button>Book it</button>
+
+            <h6>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
+            </h6>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
 
@@ -118,7 +199,22 @@ function Homepage() {
             <h4>
               <b>Medicines</b>
             </h4>
-            <button>Book it</button>
+
+            <h6>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
+            </h6>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
 
@@ -131,7 +227,22 @@ function Homepage() {
             <h4>
               <b>Medicines</b>
             </h4>
-            <button>Book it</button>
+
+            <h6>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
+            </h6>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
       </div>
@@ -148,7 +259,22 @@ function Homepage() {
             <h4>
               <b>Lab Tests</b>
             </h4>
-            <button>Schedule it</button>
+
+            <h6>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
+            </h6>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
 
@@ -161,7 +287,22 @@ function Homepage() {
             <h4>
               <b>Lab Tests</b>
             </h4>
-            <button>Schedule it</button>
+
+            <h6>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
+            </h6>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
 
@@ -174,7 +315,22 @@ function Homepage() {
             <h4>
               <b>Lab Tests</b>
             </h4>
-            <button>Schedule it</button>
+
+            <h6>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
+            </h6>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
 
@@ -184,7 +340,22 @@ function Homepage() {
             <h4>
               <b>Lab Tests</b>
             </h4>
-            <button>Schedule it</button>
+
+            <h6>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
+            </h6>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
       </div>
@@ -199,7 +370,22 @@ function Homepage() {
             <h4>
               <b>Lab Tests</b>
             </h4>
-            <button>Schedule it</button>
+
+            <h6>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
+            </h6>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
 
@@ -212,7 +398,22 @@ function Homepage() {
             <h4>
               <b>Lab Tests</b>
             </h4>
-            <button>Schedule it</button>
+
+            <h6>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
+            </h6>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
 
@@ -225,7 +426,22 @@ function Homepage() {
             <h4>
               <b>Lab Tests</b>
             </h4>
-            <button>Schedule it</button>
+
+            <h6>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
+            </h6>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
 
@@ -235,7 +451,22 @@ function Homepage() {
             <h4>
               <b>Lab Tests</b>
             </h4>
-            <button>Schedule it</button>
+
+            <h6>
+              <b>
+                lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+                ipsum dolor sit amet lorem ipsum dolor sit amet{" "}
+              </b>
+            </h6>
+
+            <h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </h4>
+            <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
       </div>

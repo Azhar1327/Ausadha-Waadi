@@ -1,5 +1,6 @@
 import "../CSS/Header.css";
 
+
 import logo from "../Images/logo.png";
 
 function Header() {
@@ -45,7 +46,7 @@ function Header() {
               placeholder="Search For Medicines ?"
             />
             <button type="submit" class="searchButton">
-              <i class="fa-solid fa-magnifying-glass"></i>{" "}
+              <i class="fa fa-search"></i>
             </button>
           </div>
         </div>

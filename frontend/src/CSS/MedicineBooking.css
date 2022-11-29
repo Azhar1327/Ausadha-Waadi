@@ -1,0 +1,28 @@
+.ProductPage
+{
+display: flex;
+flex-direction: row;
+padding:1em;
+}
+
+.ProductImage
+{
+    width: 40%;
+    padding: 1em;
+    margin-left: 2em;
+}
+
+.ProductDetails
+{
+    width: 40%;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.ProductImage > img 
+{
+    width:90%;
+    height: 90%;
+}
+
+  

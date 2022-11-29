@@ -2,6 +2,8 @@ import "./App.css";
 import Header from "./Components/Header.js";
 import Homepage from "./Components/Homepage.js";
 import Footer from "./Components/Footer.js"
+import Login from "./Components/Login.js"
+import MedicineBooking from "./Components/MedicineBooking";
 
 import {
   BrowserRouter as Router,
@@ -21,6 +23,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Homepage />} />
+          <Route path="/Booking" element={<MedicineBooking />} />
+          <Route path="/Login" element={<Login />} />
         </Routes>
       </Router>
 
