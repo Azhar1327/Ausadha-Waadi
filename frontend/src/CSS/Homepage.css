@@ -19,6 +19,13 @@
     padding: 2px 16px;
   }
 
+
+  .checked {
+    color: orange;
+  }
+
+
+  
   .Services
   {
     display: flex;

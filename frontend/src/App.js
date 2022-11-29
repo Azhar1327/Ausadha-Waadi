@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./Components/Header.js";
 import Homepage from "./Components/Homepage.js";
+import Footer from "./Components/Footer.js"
 
 import {
   BrowserRouter as Router,
@@ -22,6 +23,8 @@ function App() {
           <Route path="/" element={<Homepage />} />
         </Routes>
       </Router>
+
+      <Footer />
     </>
   );
 }
