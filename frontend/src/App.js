@@ -1,16 +1,15 @@
 import "./App.css";
 import Header from "./Components/Header.js";
 import Homepage from "./Components/Homepage.js";
-import Footer from "./Components/Footer.js"
-import Login from "./Components/Login.js"
-import Medicines from "./Components/Medicines.js"
+import Footer from "./Components/Footer.js";
+import Login from "./Components/Login.js";
+import Medicines from "./Components/Medicines.js";
 import LabTests from "./Components/LabTests";
-import Register from "./Components/Register.js"
+import Register from "./Components/Register.js";
 import MedicineBooking from "./Components/MedicineBooking";
-import Profile from "./Components/Profile.js"
-import About from "./Components/About.js"
-import Search from "./Components/Search.js"
-
+import Profile from "./Components/Profile.js";
+import About from "./Components/About.js";
+import Search from "./Components/Search.js";
 
 import {
   BrowserRouter as Router,
@@ -21,13 +20,13 @@ import {
 } from "react-router-dom";
 
 import React from "react";
+import MedicineRequest from "./Components/MedicineRequest";
+import MedList from "./Components/MedList";
 
 function App() {
   return (
     <>
-     
-
-      <Router> 
+      <Router>
         <Header />
         <Routes>
           <Route path="/" element={<Homepage />} />
@@ -39,12 +38,12 @@ function App() {
           <Route path="/Register" element={<Register />} />
           <Route path="/About" element={<About />} />
           <Route path="/Search" element={<Search />} />
-        </Routes> 
-        
+          <Route path="/Request" element={<MedicineRequest />} />
+          <Route path="/Request/list" element={<MedList />} />
+        </Routes>
+
         <Footer />
       </Router>
-
-     
     </>
   );
 }

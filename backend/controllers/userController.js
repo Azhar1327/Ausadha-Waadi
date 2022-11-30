@@ -7,11 +7,12 @@ const cloudinary = require("cloudinary");
 
 exports.regiserUser = async (req, res, next) => {
   try {
-    const myCloud = await cloudinary.v2.uploader.upload(req.body.avatar, {
+    //cloudinary
+    /* const myCloud = await cloudinary.v2.uploader.upload(req.body.avatar, {
       folder: "userImages",
       width: 150,
       crop: "scale",
-    });
+    }); */
 
     //Using bycrypt for hashing
     const salt = await bcrypt.genSalt(10);
@@ -25,8 +26,8 @@ exports.regiserUser = async (req, res, next) => {
       email: req.body.email,
       password: secPass,
       avatar: {
-        public_id: myCloud.public_id,
-        url: myCloud.secure_url,
+        public_id: "abc",
+        url: "abc",
       },
     });
 

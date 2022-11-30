@@ -4,7 +4,7 @@ import Search from "./Search.js";
 import "../CSS/Homepage.css";
 import { useDispatch } from "react-redux";
 import { getProducts } from "../actions/ProductAction.js";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Homepage() {
   const dispatch = useDispatch();
@@ -12,15 +12,8 @@ function Homepage() {
     dispatch(getProducts());
   }, [dispatch]);
 
-  
-
   return (
     <>
-
-
-      
-
-
       <h2 className="Services-heading">Medicines</h2>
 
       <div className="Services">
@@ -47,9 +40,10 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-              
-            
-            <Link to="/Booking"><button>Book it</button></Link> 
+
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
 
@@ -78,7 +72,9 @@ function Homepage() {
               <span class="fa fa-star"></span>
             </h4>
 
-            <Link to="/Booking"><button>Book it</button></Link> 
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
 
@@ -106,7 +102,9 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-            <Link to="/Booking"><button>Book it</button></Link>
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
 
@@ -134,7 +132,9 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-            <Link to="/Booking"><button>Book it</button></Link> 
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -164,7 +164,9 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-            <Link to="/Booking"><button>Book it</button></Link> 
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
 
@@ -192,7 +194,9 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-            <Link to="/Booking"><button>Book it</button></Link> 
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
 
@@ -220,7 +224,9 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-            <Link to="/Booking"><button>Book it</button></Link> 
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
 
@@ -248,7 +254,9 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-            <Link to="/Booking"><button>Book it</button></Link> 
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -280,7 +288,9 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-            <Link to="/Booking"><button>Book it</button></Link> 
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
 
@@ -308,7 +318,9 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-            <Link to="/Booking"><button>Book it</button></Link> 
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
 
@@ -336,12 +348,17 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-            <Link to="/Booking"><button>Book it</button></Link> 
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
 
         <div className="card">
-          <img src="https://assets.pharmeasy.in/apothecary/images/labtest_ff.webp?dim=256x0" alt="Avatar"/>
+          <img
+            src="https://assets.pharmeasy.in/apothecary/images/labtest_ff.webp?dim=256x0"
+            alt="Avatar"
+          />
           <div className="container">
             <h4>
               <b>Lab Tests</b>
@@ -361,7 +378,9 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-            <Link to="/Booking"><button>Book it</button></Link> 
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -391,7 +410,9 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-            <Link to="/Booking"><button>Book it</button></Link> 
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
 
@@ -419,7 +440,9 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-            <Link to="/Booking"><button>Book it</button></Link> 
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
 
@@ -447,12 +470,17 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-            <Link to="/Booking"><button>Book it</button></Link> 
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
 
         <div className="card">
-          <img src="https://assets.pharmeasy.in/apothecary/images/labtest_ff.webp?dim=256x0" alt="Avatar"/>
+          <img
+            src="https://assets.pharmeasy.in/apothecary/images/labtest_ff.webp?dim=256x0"
+            alt="Avatar"
+          />
           <div className="container">
             <h4>
               <b>Lab Tests</b>
@@ -472,17 +500,15 @@ function Homepage() {
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
             </h4>
-            <Link to="/Booking"><button>Book it</button></Link> 
+            <Link to="/Booking">
+              <button>Book it</button>
+            </Link>
           </div>
         </div>
-
-        
       </div>
 
       <h2 className="Services-heading">Search the Centre</h2>
       <Search />
-
-      
     </>
   );
 }
