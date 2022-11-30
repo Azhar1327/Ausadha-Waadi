@@ -19,7 +19,7 @@ padding: 16px;
 
 
 
-.logincontainer input[type=text], input[type=password] {
+.logincontainer input[type=text], input[type=password], input[type=number],  input[type=date] ,  input[type=file]{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -42,7 +42,7 @@ button:hover {
   opacity: 0.8;
 }
 
-.cancelbtn {
+.Register {
   width: auto;
   padding: 10px 18px;
   background-color: #f44336;
@@ -60,7 +60,11 @@ button:hover {
 }
 
 
-
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 
 span.psw {

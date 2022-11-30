@@ -1,0 +1,22 @@
+   [
+    {
+     "zipcodes": 754142,
+     "centre":"Paradeep",
+      "medicines": ["paracetamol","benadryl"],
+      "labtests": ["blood","teeth"]
+    },
+    {
+      "zipcodes": 758001,
+      "centre":"Keonjhar",
+      "medicines": ["paracetamol","benadryl"],
+      "labtests": ["blood","teeth"]
+    }
+    ,
+    {
+      "zipcodes": 7,
+      "centre":"k",
+      "medicines": ["p","b"],
+      "labtests": ["b","t"]
+      
+    }
+]

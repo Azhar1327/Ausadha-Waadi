@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Available from "./Available.js";
+import Search from "./Search.js";
 import "../CSS/Homepage.css";
 import { useDispatch } from "react-redux";
 import { getProducts } from "../actions/ProductAction.js";
@@ -15,6 +16,11 @@ function Homepage() {
 
   return (
     <>
+
+
+      
+
+
       <h2 className="Services-heading">Medicines</h2>
 
       <div className="Services">
@@ -469,10 +475,14 @@ function Homepage() {
             <Link to="/Booking"><button>Book it</button></Link> 
           </div>
         </div>
+
+        
       </div>
 
       <h2 className="Services-heading">Search the Centre</h2>
-      <Available />
+      <Search />
+
+      
     </>
   );
 }

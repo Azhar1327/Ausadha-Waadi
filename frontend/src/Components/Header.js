@@ -1,5 +1,5 @@
 import "../CSS/Header.css";
-
+import {Link} from "react-router-dom";
 
 import logo from "../Images/logo.png";
 
@@ -9,34 +9,34 @@ function Header() {
       <div className="Heading">
         <img src={logo} />
 
-        <a href="Profile">
+        <Link to="Profile">
           <b>Profile</b>
-        </a>
-        <a href="Dashboard">
+        </Link>
+        <Link to="Dashboard">
           <b>Dashboard</b>
-        </a>
-        <a href="Login">
+        </Link>
+        <Link to="Login">
           <b>Login</b>
-        </a>
+        </Link>
       </div>
 
       <div class="topnav">
-        <a href="/">
+        <Link to="/">
           <b>Home</b>{" "}
-        </a>
+        </Link>
 
-        <a href="Search">
+        <Link to="Search">
           <b>Search</b>
-        </a>
-        <a href="Medicines">
+        </Link>
+        <Link to="Medicines">
           <b>Medicines</b>
-        </a>
-        <a href="LabTests">
+        </Link>
+        <Link to="LabTests">
           <b>Lab Tests</b>
-        </a>
-        <a href="About">
+        </Link>
+        <Link to="About">
           <b>About</b>
-        </a>
+        </Link>
 
         <div class="wrap">
           <div class="search">

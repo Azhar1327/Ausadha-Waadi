@@ -1,0 +1,74 @@
+.Search-page
+{
+    width: 100%;
+    margin: 0px;
+    display: inline-block;
+    background-color: aliceblue ;
+}
+
+.Availabilty> form 
+{
+    margin-top: 10em;
+    margin-left: 30%;
+}
+
+
+.Availabilty > form >input[type=number],.Availabilty > form >input[type=text] {
+    width: 40%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* .Availabilty > form >input[type=number] {
+    width: 40%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+} */
+
+.available {
+	color: #4BB543;
+}
+
+.not-available {
+	color: #FF9494;
+}
+
+/* .Availability 
+{
+    margin: 1em;
+    padding: 1em;
+} */
+
+#res-found {
+	margin-top: 10px;
+	font-size: 15px;
+    color:#4BB543;
+	
+}
+
+
+#submit-btn,#medicine-btn,#labtest-btn {
+	background: cyan;
+	border: none;
+	font-size: 15px;
+	padding: 10px 15px;
+    width: fit-content;
+}
+
+.Medicines-Availability
+{
+   
+}
+
+.LabTests-Availability >form
+{
+   margin-bottom: 10em;
+}
+
