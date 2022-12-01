@@ -1,4 +1,5 @@
 const express = require("express");
+const ocrAPI = require("../controllers/OCRcontroller");
 const router = express.Router();
 
 const {
@@ -21,5 +22,6 @@ router.route("/getAllProducts").get(getAllProducts);
 router.route("/request/medicine/submit").post(SubmitMedicineRequest);
 router.route("/request/medicine/getAll").get(getAllMedicineRequest);
 router.route("/request/medicine/Update").put(updateRequestedMedicineStatus);
+router.route("/ocr").get(ocrAPI);
 
 module.exports = router;

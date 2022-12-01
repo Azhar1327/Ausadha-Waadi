@@ -37,6 +37,9 @@ function Header() {
         <Link to="About">
           <b>About</b>
         </Link>
+        <Link to="About">
+          <b>About</b>
+        </Link>
 
         <div class="wrap">
           <div class="search">
