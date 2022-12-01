@@ -27,7 +27,7 @@ function Profile() {
                 <div class="col-md-3">
                 <h5>Full Name</h5></div>
               <div class="col-md-9 text-secondary">
-                Aman Swastik Rath
+                Amit Rout
               </div>
             </div>
             <hr/>
@@ -36,7 +36,7 @@ function Profile() {
                 <h5>Email</h5>
               </div>
               <div class="col-md-9 text-secondary">
-                amanrath66@gmail.com
+                amitroutard@gmail.com
               </div>
             </div>
             <hr/>
@@ -50,12 +50,7 @@ function Profile() {
             </div>
             <hr/>
             <div class="row">
-              <div class="col-md-3">
-                <h5>Address</h5>
-              </div>
-              <div class="col-md-9 text-secondary">
-                xxxxx
-              </div>
+              
             </div>
             <div class="upload">
             <button type = "button" class = "btn-warning">

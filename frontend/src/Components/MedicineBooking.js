@@ -14,16 +14,13 @@ function MedicineBooking() {
 
         <div className="ProductDetails">
           <h1>
-            <b> Medicine Name</b>
+            <b> Insulin</b>
           </h1>
 
           <h3>
-            Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            nullam nunc justo sagittis suscipit ultrices Sample text. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo
-            sagittis suscipit ultrices Sample text. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit nullam nunc justo sagittis suscipit
-            ultrices
+            Insulin is a hormone created by your pancreas that controls the
+            amount of glucose in your bloodstream at any given moment. It also
+            helps store glucose in your ...
           </h3>
 
           <h4>
@@ -35,7 +32,9 @@ function MedicineBooking() {
           </h4>
 
           <a href="Checkout">
-            <button>Checkout</button>
+            <button onClick={(e)=>{
+              alert("Your Medicine is Requested")
+            }}>Checkout</button>
           </a>
         </div>
       </div>
