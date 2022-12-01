@@ -34,9 +34,6 @@ function Header() {
         <Link to="Medicines">
           <b>Medicines</b>
         </Link>
-        <Link to="LabTests">
-          <b>Lab Tests</b>
-        </Link>
         <Link to="About">
           <b>About</b>
         </Link>

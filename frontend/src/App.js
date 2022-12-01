@@ -29,7 +29,7 @@ import RequestList from "./Components/RequestList";
 import DashboardAdmin from "./Components/AdminDashbord";
 import Otp from "./Components/Otp";
 import AllUsers from "./Components/AllUsers";
-
+import UserDashbord from "./Components/UserDashbord"
 function App() {
   return (
     <>
@@ -55,6 +55,7 @@ function App() {
           <Route path="/dashbord/admin" element={<DashboardAdmin />} />
           <Route path="/varify" element={<Otp />} />
           <Route path="/allUsers" element={<AllUsers />} />
+          <Route path="/dashbord/user" element={<UserDashbord />} />
         </Routes>
         <Footer />
       </Router>

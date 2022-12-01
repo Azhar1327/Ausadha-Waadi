@@ -12,16 +12,7 @@ function DashboardAdmin() {
               <b>Home</b>
             </p>{" "}
           </Link>
-          <Link to="/Medicines">
-            <p>
-              <b>Medicines</b>
-            </p>
-          </Link>
-          <Link to="/LabTests">
-            <p>
-              <b>LabTests</b>
-            </p>{" "}
-          </Link>
+          
           <Link to="/Request/list/admin">
             <p>
               <b>Unavailable List</b>
