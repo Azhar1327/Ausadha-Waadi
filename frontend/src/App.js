@@ -22,6 +22,7 @@ import {
 import React from "react";
 import MedicineRequest from "./Components/MedicineRequest";
 import MedList from "./Components/MedList";
+import AdminMed from "./Components/AdminMed";
 
 function App() {
   return (
@@ -40,8 +41,8 @@ function App() {
           <Route path="/Search" element={<Search />} />
           <Route path="/Request" element={<MedicineRequest />} />
           <Route path="/Request/list" element={<MedList />} />
+          <Route path="/Request/list/admin" element={<AdminMed />} />
         </Routes>
-
         <Footer />
       </Router>
     </>

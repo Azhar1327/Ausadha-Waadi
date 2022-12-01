@@ -1,5 +1,7 @@
 import React, { useRef, useState } from "react";
 
+import "../CSS/MedicineRequest.css";
+
 function MedicineRequest() {
   const [pinCode, setpinCode] = useState("");
   const one = useRef(0);
@@ -17,11 +19,13 @@ function MedicineRequest() {
   };
   return (
     <>
-      <div>
-        <p>Enter Pin Code Of your Locality</p>
+      <div className="Requestdiv">
+        <h2>
+          <b>Enter Pin Code Of your Locality</b>
+        </h2>
         <div className="Enter_pin_code">
           <input
-            type="text"
+            type="number"
             onChange={(e) => {
               setpinCode(e.target.value);
             }}
@@ -35,7 +39,7 @@ function MedicineRequest() {
         </div>
         <div className="list_of_unavailable_medicine" ref={one}>
           <h3>List of unavailble medicine</h3>
-          <div className="unavailble_medicine_details_1">
+          <div className="unavailble_medicine_details">
             <div className="med_img">
               <img
                 src="https://media.npr.org/assets/img/2019/05/28/avastin_gettyimages-94867926_custom-8a83cfafca73f987ab37e366ed8da25bd97a7c43.jpg"
@@ -47,36 +51,22 @@ function MedicineRequest() {
               <p>Avastin 100mg</p>
               <p>Status: Unavailable</p>
               <p>Med ID :6383c4c446498c5e7343c814 </p>
-              <button
-                style={{
-                  width: "35%",
-                }}
-                onClick={requestMedicine1}
-              >
-                Request this medicine
-              </button>
+              <button onClick={requestMedicine1}>REQUEST</button>
             </div>
           </div>
-          <div className="unavailble_medicine_details_2">
+          <div className="unavailble_medicine_details">
             <div className="med_img">
               <img
                 src="https://www.calcuttayellowpages.com/cimage34/111147bnnr_01.png"
                 alt=""
-                style={{ width: "20%" }}
               />
             </div>
             <div className="med_details">
               <p>Daxotel 80mg</p>
               <p>Status: Unavailable</p>
               <p>Med ID :6383c4fa46498c5e7343c819 </p>
+              <button onClick={requestMedicine1}>REQUEST</button>
             </div>
-            <button
-              style={{
-                width: "35%",
-              }}
-            >
-              Request This medicine
-            </button>
           </div>
         </div>
       </div>

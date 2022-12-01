@@ -1,0 +1,97 @@
+.Requestdiv
+{
+    padding:4em;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.Requestdiv>h2
+{
+   color:blue;
+   text-transform: capitalize;
+}
+
+
+.Enter_pin_code >input[type="number"]
+{
+    width: 20em;
+    padding:1em;
+    
+    
+}
+
+.Enter_pin_code >button
+{
+    width: 8em;
+    padding:1em;
+    background-color:#4CAF50 ;
+    text-transform: uppercase;
+    /* border: 1px; */
+    
+}
+
+.unavailble_medicine_details
+{
+    display: flex;
+    background: #95ff82;
+    margin-bottom: 2em;
+    padding: 2em;
+    border:solid 2px black;
+}
+
+.med_img
+{
+    width:40%;
+}
+
+.med_img > img
+{width: 80% !important;
+    height:15em;
+
+}
+
+.med_details>button
+{
+    width:40%;
+    background-color: #555555;
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.med_details>button:hover
+{
+    background-color:white; 
+  color: #555555;
+
+}
+   
+
+
+.med_details>p
+
+    {
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-decoration: underline;
+        text-underline-position: under;
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    
+
+  

@@ -1,0 +1,90 @@
+.individual_request_main {
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+    background: lightblue;
+    width: 38em;
+
+}
+
+.individual_request_main>div {
+    display: flex;
+    flex-direction: row;
+    padding: 0 2em;
+}
+
+.individual_request_main>div>p {
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 2em;
+    width: 15em;
+
+}
+
+
+p:first-of-type {
+    color: blue;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.individual_request_main {
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+    background: lightblue;
+    width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.individual_request_main>div {
+    display: flex;
+    flex-direction: row;
+    padding: 0 2em;
+}
+
+.individual_request_main>div>p {
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 2em;
+    width: 15em;
+
+}
+
+
+p:first-of-type {
+    color: blue;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.updateButton
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70vh;
+}
+
+.updateButton > button
+{
+    background: yellow;
+    height: 3em;
+    width: 10em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 2em;
+}
+
+.updateButton > button:nth-of-type(2)
+{
+    background: green;
+}
+
+.updateButton > button:nth-of-type(3)
+{
+    background: red;
+}
