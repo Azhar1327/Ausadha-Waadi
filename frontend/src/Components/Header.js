@@ -12,11 +12,14 @@ function Header() {
         <Link to="Profile">
           <b>Profile</b>
         </Link>
-        <Link to="Dashboard">
+        <Link to="/dashbord/admin">
           <b>Dashboard</b>
         </Link>
         <Link to="Login">
           <b>Login</b>
+        </Link>
+        <Link to="Help">
+          <b>Help</b>
         </Link>
       </div>
 
@@ -25,8 +28,8 @@ function Header() {
           <b>Home</b>{" "}
         </Link>
 
-        <Link to="Search">
-          <b>Search</b>
+        <Link to="/Request">
+          <b>Search unavailable Medicine</b>
         </Link>
         <Link to="Medicines">
           <b>Medicines</b>
@@ -37,8 +40,11 @@ function Header() {
         <Link to="About">
           <b>About</b>
         </Link>
-        <Link to="About">
-          <b>About</b>
+        <Link to="Emergency">
+          <b>Emergency</b>
+        </Link>
+        <Link to="/Request/list">
+          <b>status</b>
         </Link>
 
         <div class="wrap">

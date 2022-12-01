@@ -1,14 +1,22 @@
+import axios from "axios";
 import React, { useState } from "react";
+import "../CSS/Emergency.css"
 
 function EmergencyMed() {
   const [name, setname] = useState("");
-  const [phoneNO, setphoneNO] = useState("");
+  const [PhoneNO, setphoneNO] = useState("");
   const [address, setaddress] = useState("");
-  const [prescution, setprescution] = useState("");
-  const [medicine_name, setmedicine_name] = useState("");
+  const [prescription, setprescution] = useState("");
+  const [medicine, setmedicine_name] = useState("");
 
-  const EnergencyFormSubmit=()=>{
-    console.log(prescution)
+  const EnergencyFormSubmit=async()=>{
+    try{
+      const data=await axios.post("/api/v1/emergency/request",{name,medicine,address,PhoneNO,prescription})
+      console.log(data)
+      alert("Your Requested Submited Sucessfully")
+    }catch(error){
+      console.log(error)
+    }
   }
 
   return (
@@ -51,6 +59,7 @@ function EmergencyMed() {
             />
           </div>
           <div className="prescution">
+            <p>Upload Your prescription</p>
             <label class="custom-file-upload" name="file" />
             <input
               type="file"

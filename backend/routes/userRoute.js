@@ -34,7 +34,7 @@ router.route("/password/update").put(isAuthenticated, updateUserPassword);
 
 router.route("/me/update").put(isAuthenticated, updateProfile);
 
-router.route("/admin/users").get(isAuthenticated, authrole, getAllUser);
+router.route("/admin/users").get(getAllUser);
 
 router
   .route("/admin/users/:id")

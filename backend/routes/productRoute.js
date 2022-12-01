@@ -1,5 +1,7 @@
 const express = require("express");
+const { createEmergencyRequest,getAllEmergencyRequest } = require("../controllers/EmgController");
 const ocrAPI = require("../controllers/OCRcontroller");
+const otp = require("../controllers/Otp");
 const router = express.Router();
 
 const {
@@ -23,5 +25,10 @@ router.route("/request/medicine/submit").post(SubmitMedicineRequest);
 router.route("/request/medicine/getAll").get(getAllMedicineRequest);
 router.route("/request/medicine/Update").put(updateRequestedMedicineStatus);
 router.route("/ocr").get(ocrAPI);
+
+router.route("/emergency/request").post(createEmergencyRequest);
+router.route("/emergency/getAll").get(getAllEmergencyRequest);
+
+router.route("/otp").post(otp);
 
 module.exports = router;

@@ -24,7 +24,11 @@ import MedicineRequest from "./Components/MedicineRequest";
 import MedList from "./Components/MedList";
 import AdminMed from "./Components/AdminMed";
 import EmergencyMed from "./Components/EmergencyMed";
-
+import ChatBot from "./Components/ChatBot";
+import RequestList from "./Components/RequestList";
+import DashboardAdmin from "./Components/AdminDashbord";
+import Otp from "./Components/Otp";
+import AllUsers from "./Components/AllUsers";
 
 function App() {
   return (
@@ -41,10 +45,16 @@ function App() {
           <Route path="/Register" element={<Register />} />
           <Route path="/About" element={<About />} />
           <Route path="/Search" element={<Search />} />
+          {/* new routes */}
           <Route path="/Request" element={<MedicineRequest />} />
           <Route path="/Request/list" element={<MedList />} />
           <Route path="/Request/list/admin" element={<AdminMed />} />
-          <Route path="/Request/Emergency" element={<EmergencyMed />} />
+          <Route path="/Emergency" element={<EmergencyMed />} />
+          <Route path="/Help" element={<ChatBot />} />
+          <Route path="/request/list/emergency/admin" element={<RequestList />} />
+          <Route path="/dashbord/admin" element={<DashboardAdmin />} />
+          <Route path="/varify" element={<Otp />} />
+          <Route path="/allUsers" element={<AllUsers />} />
         </Routes>
         <Footer />
       </Router>

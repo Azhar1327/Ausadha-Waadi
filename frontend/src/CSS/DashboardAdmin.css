@@ -1,0 +1,55 @@
+.AdminPage {
+    background-color: rgb(23, 21, 32) !important;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Admin-Navigation {
+    width: 20%;
+    padding: 2em;
+
+}
+
+.Admin-Navigation p {
+    color: white !important;
+    text-decoration: none !important;
+    text-decoration-position: none;
+}
+
+.Admin-list {
+    width: 100%;
+    padding: 2em;
+    background-color: rgb(42, 34, 74) !important;
+    overflow-y: auto;
+}
+
+.MedicineList {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    background-color: rgb(71, 53, 146) !important;
+    margin-bottom: 2em;
+    border-radius: 45px;
+}
+
+.MedicineList>img {
+    width: 5em;
+    height: 5em;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.MedicineList h5 {
+    margin-left: 2em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.MedicineList h4 {
+    margin-left: 2em;
+    margin-top: auto;
+    margin-bottom: auto;
+}

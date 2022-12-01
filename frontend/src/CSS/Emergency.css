@@ -1,0 +1,43 @@
+.emergency_main {
+    margin: 3em auto;
+    background: lightgreen;
+    padding: 2em;
+    width: 50%;
+
+}
+
+.emergency_main>h4 {}
+
+.emergency_medicine_form input[type="text"] {
+    width: 45em !important;
+    height: 3em;
+    display: block;
+}
+
+.prescution {
+    margin-left: 0px;
+}
+
+.emergency_medicine_form input[type="file"] {
+    height: 3em;
+    padding-left: 0;
+}
+
+.emergency_medicine_form button {
+    margin-left: 0;
+    height: 2.5em;
+    width: 7em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.name_and_phone_no {
+    margin-top: 1em !important;
+}
+
+.chatBot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
