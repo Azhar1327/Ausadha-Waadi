@@ -1,6 +1,6 @@
 # Auṣadha-Waadi
 
-* An online management tool called Auṣhadha-wadi is used to oversee a number of activities carried out at government-run healthcare facilities, such as the distribution of free medication and free lab testing.
+* An online management tool called Auṣadha-Waadi is used to oversee a number of activities carried out at government-run healthcare facilities, such as the distribution of free medication and free lab testing.
 
 * This will enable patients to acquire free medications and look up all nearby government-funded health care options.
 
